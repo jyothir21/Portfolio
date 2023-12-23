@@ -309,9 +309,9 @@ form .btn2 {
     color: rgb(249, 246, 246);
   }
 
-  .copyright,
-  .container span {
-    font-size: 12px;
+  .copyright {
+    font-size: 12px;    
+    margin-bottom: 12vh;
   }
 
   .sub-title {

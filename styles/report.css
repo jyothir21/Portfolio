@@ -626,7 +626,7 @@ li.curved-arrow::after {
     font-size: 1.1rem;
     text-align: justify;
     width: 88vw;
-    /* border: 2px solid green; */
+    /* border: 2px solid green; */    
   }
 
   .blog-box {
@@ -655,9 +655,9 @@ li.curved-arrow::after {
     font-size: 10px;
   }
 
-  .copyright,
-  .container span {
+  .copyright {
     font-size: 12px;
+    margin-bottom: 12vh;
   }
 
   .popup .content {

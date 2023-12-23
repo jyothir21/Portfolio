@@ -39,7 +39,7 @@
             <li>
               <a href="../pages/report.html">
                 <i class="fas fa-chart-bar"></i>
-                <span class="nav-item">Workterm Reports</span>
+                <span class="nav-item">Projects</span>
               </a>
             </li>
 
@@ -96,7 +96,7 @@
 
           <!-- Box Text -->
           <div class="blog-box-text">
-            <strong></strong>
+            <strong>PUBLIC</strong>
             <a
               href="https://github.com/jyothir21/Ecommerce-Shopping-Project"
               target="_blank"
@@ -136,7 +136,7 @@
 
           <!-- Box Text -->
           <div class="blog-box-text">
-            <strong></strong>
+            <strong>PUBLIC</strong>
             <a
               href="https://github.com/jyothir21/Tweet-Manager"
               target="_blank"
@@ -177,7 +177,7 @@
 
           <!-- Box Text -->
           <div class="blog-box-text">
-            <strong></strong>
+            <strong>PRIVATE (REQUEST PERMISSION)</strong>
             <a
               href="https://github.com/jyothir21/TicTacToe-GUI"
               target="_blank"
@@ -208,5 +208,36 @@
     <div class="copyright">
       <p><span>&copy</span> Jyothir Krishnan 2022. All rights reserved.</p>
     </div>
+
+    <script>
+      if (screen.width <= 600) {
+        var menuOptions = document.getElementById("menuList");
+        var open = document.getElementById("menuOpenIcon");
+        var close = document.getElementById("menuCloseIcon");
+
+        menuOptions.style.maxHeight = "0px";
+
+        function openmenu() {
+          menuOptions.style.maxHeight = "292px";
+          open.style.display = "none";
+          close.style.display = "block";
+        }
+
+        function sleep(milliseconds) {
+          return new Promise((resolve) => setTimeout(resolve, milliseconds));
+        }
+        async function delayOpenMenu() {
+          await sleep(300);
+          open.style.display = "block";
+        }
+
+        function closemenu() {
+          close.style.display = "none";
+          menuOptions.style.maxHeight = "0px";
+
+          delayOpenMenu();
+        }
+      }
+    </script>
   </body>
 </html>
