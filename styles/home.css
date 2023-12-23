@@ -366,10 +366,6 @@ a:hover {
     margin-bottom: 1vh;
   }
 
-  .tab-contents ul .last {
-    /* margin-bottom: 15vh; */
-  }
-
   .tab-contents .desc li {
     font-size: 3vw;
     margin-left: 9vw;
