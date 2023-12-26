@@ -259,6 +259,7 @@ a:hover {
     text-align: left;
     overflow: hidden;
     transition: 0.5s;
+    z-index: 2;
   }
 
   .logo {
@@ -320,6 +321,7 @@ a:hover {
     right: 10px;
     top: 21px;
     font-size: 2rem;
+    z-index: 2;
   }
 
   .row {
@@ -372,6 +374,6 @@ a:hover {
   }
 
   .copyright {
-    font-size: 12px;        
+    font-size: 12px;
   }
 }
